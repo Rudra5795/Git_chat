@@ -6,7 +6,9 @@ import pandas as pd
 from typing import Optional, Dict, Any
 import logging
 
-from llama_index.core.response_synthesizers import get_response_synthesizer
+from llama_index.core.response_synthesizers import(
+get_response_synthesizer
+)
 from gitingest import ingest
 from llama_index.core import Settings, PromptTemplate, VectorStoreIndex, SimpleDirectoryReader
 from llama_index.core.node_parser import MarkdownNodeParser
